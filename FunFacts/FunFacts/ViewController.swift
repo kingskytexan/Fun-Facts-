@@ -23,7 +23,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showFact() {
-        funFactLabel.text = "Another interesting fact!"
+        let facts = ["Ants stretch when they wake up in the morning",
+                     "Ostriches run faster then horses"]
+        
+        funFactLabel.text = facts[1]
     }
     
 }
